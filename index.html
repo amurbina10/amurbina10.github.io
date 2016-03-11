@@ -1,84 +1,155 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="utf-8">
-    <title>Amber Urbina- Portfolio</title>
+  <!-- TODO: Update Title -->
+  <title>Amber Urbina  Web Page</title>
+  
+  <!-- Include the following stylesheet (controls sytle of navbar and footer) -->
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  
+  <!-- TODO: Change CSS colors and image so that it matches your desired theme -->
+  <style>
+    body {
+      font-family: Verdana;
+      background-color:#C2C2C2;
+    }
+    
+    /* TODO: Make sure the height of your page is big enough */
+    .main {
+      clear: left;
+      min-width: 600px;
+      max-width: 800px;
+      height:650px;
+      margin:0 auto;
+    }
 
-    <style>
-        body {
-            background-color: gray
-        }
-        #navbar {
-            background-color: black;
-        }
-        h1 {
-            background-color: black;
-            color: gray;
-        }
-        h2 {
-            background-color: black;
-            color: gray;
-            #hobbies {
-                color: rgb(61, 177, 255);
-            }
-    </style>
+    .main-page{
+      display: block;
+      float:right;
+      background-color:#E0E0E0;
+      height:100%;
+      width:75%;
+      box-sizing:border-box;
+    }
 
+    .sidebar {
+      box-sizing:border-box;
+      padding:10px;
+      float:left;
+      width:25%;
+      height:100%;
+      background-color: white;
+    }
+
+    .sidebar-nav{
+      margin: 15px 0px;
+      color:black;
+    }
+
+    .sidebar li {
+      margin: 20px 5px 0px;
+    }
+
+    .sidebar ul ul li{
+      margin: 10px 15px 0px;
+      font-size:0.8em;
+    }
+
+    .sidebar ul ul li a{
+      text-decoration: none;
+      color: black;
+    }
+
+    .sidebar ul ul li a:hover{
+      color: black;
+    }
+
+    .image-container {
+      height:300px;
+      width:100%;
+      position: relative;
+      /* TODO: Update the following image */
+      background-image: url("https://s-media-cache-ak0.pinimg.com/736x/eb/3c/e7/eb3ce72f14f0c7180aa9a28546eca049.jpg");
+      background-repeat: no-repeat;
+      background-size: 100% 300px;
+    }
+
+    .main-title {
+      margin: 10px 15px;
+      font-size: 30px;
+    }
+
+    .left-panel{
+      box-sizing: border-box;
+      width: 50%;
+      float:left;
+      padding:20px;
+    }
+
+    .right-panel{
+      box-sizing: border-box;
+      width: 50%;
+      float:left;
+      padding:20px;
+    }
+
+    .sub-title {
+      text-align: center;
+    }
+
+    .text-info {
+      font-size: 0.8em;
+      margin: 20px;
+    }
+
+  </style>
 </head>
-
 <body>
-
-    <div id="navbar">
-        <ul>
-            <li><a href="">About</a>
-            </li>
-            <li><a href="">Hobbies</a>
-                <?li>
-                    <li><a href="">Where I am  from</a>
-                    </li>
+    <div class="navbar">
+        <ul class="navigation">
+            <!-- TODO: Ensure that your Navbar is correct -->
+            <li class="active"><a href="">Home</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+        </ul>
     </div>
 
-    <div id="main">
-        <h1>Amber Urbina<h1>
-            <p> A founding ninth grader at Alpha Cindy Avitia High School</p>
-            
-            <img src="http://images.forwallpaper.com/files/images/f/f3a9/f3a956d6/236451/landscapes-grass-field-sunset-clouds-field-nature-trees-forest-wind-sun.jpg" alt="a great view" width="600">
-            
-            <h2>About</h2>
-            <p><strong>Education:</strong><em>Alpha Cindy Avitia High School<em><br>
-            <strong>Hometown:</strong><em>San jose California</em><br>
-            <strong>Career in Mind:</strong><em>Pediatrician</em><br>
-            
-            San Jose California is the home to me.I was born and raised all my life here.<br>
-            I am a founding ninth grader at Alpha Cindy Avitia 2015.Going through the <br>
-           stuggles of high school I want to be a pediatrician for a career in life.I think it <br>
-           would be a great career for me.I will make my parenst proud when I walk that <br>
-           stage to go to Stanford University.
-          
-          
-            </p>
-            <div id="hobbies">
-            <h2>Hobbies</h2>
-            <p>
-          
-            I like to do a lot of stuff during my free time.<br>
-              Basketball is my favorite sport.I learned how to
-            </p>
-            <h2>Where I am from</h2></h2>
-            <p>
-            <strong>San Jose</strong></strong><br>
-            <p>
-              
-              
-              
-            </p>
-           <strong>My family</strong>
-           <p>
-            My family is from mexico.My Mom's side is from Guadalajara.My Dad's side id from Michochan.
-            
-            </p>
-            
+    <div class="main">
+        <div class="sidebar">
+            <ul class="sidebar-nav">
+                <!-- TODO: Update the recent projects -->
+                <li><strong>Recent Projects</strong></li>
+                <ul>
+                    <li><a href="./portfolio.html">Shooting Star</a></li>
+                    <li><a href="./portfolio.html">Maze Game</a></li>
+                </ul>
+            </ul>
         </div>
- 
-    </body>
+        <div class="main-page">
+            <div class="image-container"></div>
+            
+            <!-- TODO: Update the page title -->
+            <h1 class="main-title">Amber Urbina Homepage</h1>
+            <!-- TODO: Update the left-panel and right-panel with info from your 90s website -->
+            <div class="left-panel">
+                <h2 class="sub-title">My Background</h2>
+                  <p class="text-info">San Jose California is the home to me.I was born and raised all my life here.
+I am a founding ninth grader at Alpha Cindy Avitia 2015. Going through the 
+stuggles of high school I want to be a pediatrician for a career in life.I think it 
+would be a great career for me.I will make my parnets proud when I walk that 
+stage to go to Stanford University.
+            </div>
+            <div class="right-panel">
+                <h2 class="sub-title">What I Do Now</h2>
+                <p class="text-info">I love being outdoors playing sports with my friends and family. My favorite sport is soccer. On my free time i usally like to draw and color. I like doing a lot of pencil art work. I also enjoy reading. My top interset in reading is mystery. 
+            </div>
+
+            </div>
+        <!-- TODO: Add anything you want to the footer -->
+        <div class="footer">
+        </div>
+    </div>
+    
+    
+
+</body>
 </html>

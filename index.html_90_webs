@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Amber Urbina- Portfolio</title>
+
+    <style>
+        body {
+            background-color: gray
+        }
+        #navbar {
+            background-color: black;
+        }
+        h1 {
+            background-color: black;
+            color: gray;    
+        }
+        h2 {
+            background-color: black;
+            color: gray;
+            #hobbies {
+                color: rgb(61, 177, 255);
+            }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="navbar">
+        <ul>
+            <li><a href="">About</a>
+            </li>
+            <li><a href="">Hobbies</a>
+                <?li>
+                    <li><a href="">Where I am  from</a>
+                    </li>
+    </div>
+
+    <div id="main">
+        <h1>Amber Urbina<h1>
+            <p> A founding ninth grader at Alpha Cindy Avitia High School</p>
+            
+            <img src="http://images.forwallpaper.com/files/images/f/f3a9/f3a956d6/236451/landscapes-grass-field-sunset-clouds-field-nature-trees-forest-wind-sun.jpg" alt="a great view" width="515">
+            
+            <h2>About</h2>
+            <p><strong>Education:</strong><em>Alpha Cindy Avitia High School<em><br>
+            <strong>Hometown:</strong><em>San jose California</em><br>
+            <strong>Career in Mind:</strong><em>Pediatrician</em><br>
+            
+            San Jose California is the home to me.I was born and raised all my life here.<br>
+            I am a founding ninth grader at Alpha Cindy Avitia 2015.Going through the <br>
+           stuggles of high school I want to be a pediatrician for a career in life.I think it <br>
+           would be a great career for me.I will make my parents proud when I walk that <br>
+           stage to go to Stanford University.
+          
+          
+            </p>
+            <div id="hobbies">
+            <h2>Hobbies</h2>
+            <p>
+          
+            I like to do a lot of stuff during my free time.<br>
+              Basketball is my favorite sport.I learned how to
+            </p>
+            <h2>Where I am from</h2></h2>
+            <p>
+            <strong>San Jose</strong></strong><br>
+            <p>
+              
+              
+              
+            </p>
+           <strong>My family</strong>
+           <p>
+            My family is from mexico.My Mom's side is from Guadalajara.My Dad's side id from Michochan. I am the oldest child in the family as the oldest I shall set an example for my younger siblings.My family considers themsleves as latinos and hispanica
+             
+            
+            </p>
+            
+        </div>
+ 
+    </body>
+</html>
