@@ -1,28 +1,97 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <!-- TODO: Update your portfolio page title -->
   <title>Amber Urbina - Portfolio</title>
-  
+
   <!-- Linked Stylesheet (Controls Navbar and Footer) -->
   <link rel="stylesheet" type="text/css" href="./css/style.css">
   <style>
-  /*Reset CSS below -- this gets rid of a lot of cross-browser bugs*/
-  /************  DO NOT TOUCH ANY OF THE CSS BELOW ***************/
-
-    html, body, div, span, applet, object, iframe,
-    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-    a, abbr, acronym, address, big, cite, code,
-    del, dfn, em, img, ins, kbd, q, s, samp,
-    small, strike, strong, sub, sup, tt, var,
-    b, u, i, center,
-    dl, dt, dd, ol, ul, li,
-    fieldset, form, label, legend,
-    table, caption, tbody, tfoot, thead, tr, th, td,
-    article, aside, canvas, details, embed,
-    figure, figcaption, footer, header, hgroup,
-    menu, nav, output, ruby, section, summary,
-    time, mark, audio, video {
+    /*Reset CSS below -- this gets rid of a lot of cross-browser bugs*/
+    /************  DO NOT TOUCH ANY OF THE CSS BELOW ***************/
+    
+    html,
+    body,
+    div,
+    span,
+    applet,
+    object,
+    iframe,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    a,
+    abbr,
+    acronym,
+    address,
+    big,
+    cite,
+    code,
+    del,
+    dfn,
+    em,
+    img,
+    ins,
+    kbd,
+    q,
+    s,
+    samp,
+    small,
+    strike,
+    strong,
+    sub,
+    sup,
+    tt,
+    var,
+    b,
+    u,
+    i,
+    center,
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td,
+    article,
+    aside,
+    canvas,
+    details,
+    embed,
+    figure,
+    figcaption,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    output,
+    ruby,
+    section,
+    summary,
+    time,
+    mark,
+    audio,
+    video {
       margin: 0;
       padding: 0;
       border: 0;
@@ -31,83 +100,100 @@
       vertical-align: baseline;
     }
     /* HTML5 display-role reset for older browsers */
-    article, aside, details, figcaption, figure,
-    footer, header, hgroup, menu, nav, section {
+    
+    article,
+    aside,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    section {
       display: block;
     }
+    
     body {
       line-height: 1;
     }
-    ol, ul {
+    
+    ol,
+    ul {
       list-style: none;
     }
-    blockquote, q {
+    
+    blockquote,
+    q {
       quotes: none;
     }
-    blockquote:before, blockquote:after,
-    q:before, q:after {
+    
+    blockquote:before,
+    blockquote:after,
+    q:before,
+    q:after {
       content: '';
       content: none;
     }
+    
     table {
       border-collapse: collapse;
       border-spacing: 0;
     }
-
-  /**************  END OF RESET CSS   **************/
+    /**************  END OF RESET CSS   **************/
   </style>
-  
+
   <!-- TODO: Change the CSS colors below so that it fits your website theme -->
   <style type="text/css" media="screen">
     body {
       background-color: orange;
-      padding:5px;
-      color:white;
+      padding: 5px;
+      color: white;
       font-family: Verdana;
     }
-
+    
     .grid {
       background-color: white;
-      border:1px solid black;
+      border: 1px solid black;
       display: inline-block;
-      margin:8px;
-      color:black;
+      margin: 8px;
+      color: black;
     }
-
+    
     #carousel {
-      background-color:rgb(0,230,100);
-      padding:15px;
+      background-color: rgb(0, 230, 100);
+      padding: 15px;
     }
-
-
+    
     body {
       font-family: Verdana;
-      background-color:orange;
+      background-color: orange;
     }
-
+    
     .main {
-      display:block;
+      display: block;
       clear: left;
       min-width: 600px;
       max-width: 800px;
-      height:100%;
-      margin:0 auto;
+      height: 100%;
+      margin: 0 auto;
     }
-
-    .main-page{
-      float:right;
-      background-color:rgb(0,100.250);
-      height:100%;
-      width:75%;
-      box-sizing:border-box;
+    
+    .main-page {
+      float: right;
+      background-color: rgb(0, 100.250);
+      height: 100%;
+      width: 75%;
+      box-sizing: border-box;
     }
-
+    
     .sidebar {
-      box-sizing:border-box;
-      padding:10px;
-      float:left;
-      width:25%;
-      height:100%;
+      box-sizing: border-box;
+      padding: 10px;
+      float: left;
+      width: 25%;
+      height: 100%;
       background-color: black;
     }
     
@@ -115,41 +201,40 @@
       margin: 10px 15px;
       font-size: 30px;
     }
-
-    .left-panel{
+    
+    .left-panel {
       box-sizing: border-box;
       width: 50%;
-      float:left;
-      padding:15px;
+      float: left;
+      padding: 15px;
     }
-
-    .right-panel{
+    
+    .right-panel {
       box-sizing: border-box;
       width: 50%;
-      float:left;
-      padding:20px;
+      float: left;
+      padding: 20px;
     }
-
+    
     .sub-title {
       text-align: center;
     }
-
+    
     .text-info {
       font-size: 0.8em;
       margin: 15px;
     }
-
-
   </style>
 </head>
+
 <body>
-    <div class="navbar">
-        <ul class="navigation">
-            <!-- TODO: Ensure that your Navbar is correct -->
-            <li><a href="./index.html">Home</a></li>
-            <li class="active"><a href="">Portfolio</a></li>
-        </ul>
-    </div>
+  <div class="navbar">
+    <ul class="navigation">
+      <!-- TODO: Ensure that your Navbar is correct -->
+      <li><a href="./index.html">Home</a></li>
+      <li class="active"><a href="">Portfolio</a></li>
+    </ul>
+  </div>
 
   <div class="main">
     <div id="carousel">
@@ -157,41 +242,49 @@
       <!-- The div below shows an Embedded Scratch Project -->
       <!-- TODO: Update for your Maze Game -->
       <div class="grid">
-                  <iframe allowtransparency="true" width="250" height="200" src="//scratch.mit.edu/projects/embed/90732969/?autostart=false" frameborder="0" allowfullscreen></iframe>
+        <iframe allowtransparency="true" width="250" height="200" src="//scratch.mit.edu/projects/embed/90732969/?autostart=false" frameborder="0" allowfullscreen></iframe>
         <p><a href="https://scratch.mit.edu/projects/90732969/">Maze Game</a></p>
       </div>
-      
+
       <!-- The div below is a screenshot of a document that you can click on to get to the document-->
       <!-- TODO: Update for your Project: Shooting Star -->
       <div class="grid">
         <a href="https://www.khanacademy.org/computer-programming/spin-off-of-project-shooting-star/6482264175542272" target="_blank"><img src="./img/portfolio/project_shooting_star.png" alt="Project Shooting Star" width="250"></a>
         <p><a href="https://www.khanacademy.org/computer-programming/spin-off-of-project-shooting-star/6482264175542272" target="_blank">Project Shooting Star</a></p>
       </div>
-      
+
       <!-- The div below is an example of a linked Google Doc -->
       <!-- TODO: Update for your Algebra Challenge 2 (The fish tank one) -->
       <div class="grid">
-        <iframe src="https://docs.google.com/document/d/1KzU6J35V2vAXxKtwD_c45qrJcGmwH7pf7A2EGy8CSy0/edit"  height=200 width=250></iframe>
+        <iframe src="https://docs.google.com/document/d/1KzU6J35V2vAXxKtwD_c45qrJcGmwH7pf7A2EGy8CSy0/edit" height=200 width=250></iframe>
         <p><a href="https://docs.google.com/document/d/1KzU6J35V2vAXxKtwD_c45qrJcGmwH7pf7A2EGy8CSy0/edit" target="_blank">Quarter 2 Fish Tank Project</a></p>
       </div>
-      
+       <div class="grid">
+        <iframe src="https://docs.google.com/document/d/1ixQ_Mb_2IWCL9RNcWeAD4K1iRwzLk5cDqVJw4CAYag4/edit" height=200 width=250></iframe>
+        <p><a href="https://docs.google.com/document/d/1KzU6J35V2vAXxKtwD_c45qrJcGmwH7pf7A2EGy8CSy0/edit" target="_blank">Quarter 2 Fish Tank Project</a></p>
+      </div>
+
       <!-- TODO: Add more div class="grid" elements for your other Khan Academy Projects and Algebra Challenges -->
-  <div class="grid">
-        <a href="./design_a_band.html">
-          <img src="./img/portfolio/design_a_band/album_cover.png" alt="Album Cover" width=350>
-          <p>Design a Band Challenge</p>
-        </a>
-      </div>
-   <a href="https://www.khanacademy.org/computer-programming/spin-off-of-project-whats-for-dinner/5141342982635520" target="_blank"><alt="Project Shooting Star" width="350"></a>
-        <p><a href="https://www.khanacademy.org/computer-programming/spin-off-of-project-whats-for-dinner/5141342982635520" target="_blank">What's for Dinner</a></p>
-      </div>
-       <a href="https://www.khanacademy.org/computer-programming/spin-off-of-project-fish-tank/2929779236" target="_blank"><alt="Fish Tank Khan Academy"  hieght ="300"width="200"></a>
-        <p><a href="https://www.khanacademy.org/computer-programming/spin-off-of-project-fish-tank/2929779236" target="_blank">Fish Tank Khan Academy</a></p>
-      </div>
-      
-  <div class="footer">
-  </div>
+
+    </div>
+    <div class="grid">
+      <a href="./design_a_band.html">
+        <img src="./img/portfolio/design_a_band/album_cover.png" alt="Album Cover" width=350>
+        <p>Design a Band Challenge</p>
+      </a>
+    </div>
+<div class="grid">
+        <!-- Place your youtube video embed code in the line below this comment -->
+       <iframe width="420" height="315" src="https://www.youtube.com/embed/0rbrY1HQ824" frameborder="0" allowfullscreen></iframe>
+        <!-- Update the line below so that when you click on it it takes you to your project -->
+        <p><a href="https://www.youtube.com/embed/0rbrY1HQ824" target="_blank">Click here to see my final project</a></p>
+</div>
+
+
+    <div class="footer">
+    </div>
 
 
 </body>
+
 </html>
